@@ -21,6 +21,21 @@
 		A43E2675182761EB006A4588 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E2657182761EB006A4588 /* UIKit.framework */; };
 		A43E267D182761EB006A4588 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A43E267B182761EB006A4588 /* InfoPlist.strings */; };
 		A43E267F182761EB006A4588 /* SpeechRecognizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E267E182761EB006A4588 /* SpeechRecognizeTests.m */; };
+		A43E268918276244006A4588 /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E268818276244006A4588 /* SpeechKit.framework */; };
+		A43E268B18276277006A4588 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E268A18276277006A4588 /* AVFoundation.framework */; };
+		A43E268D18276280006A4588 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E268C18276280006A4588 /* AudioToolbox.framework */; };
+		A43E268F1827628A006A4588 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E268E1827628A006A4588 /* CFNetwork.framework */; };
+		A43E269118276297006A4588 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E269018276297006A4588 /* SystemConfiguration.framework */; };
+		A43E2694182762BD006A4588 /* FTFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E2693182762BD006A4588 /* FTFactory.m */; };
+		A43E2697182763A1006A4588 /* FTRecognizerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E2696182763A1006A4588 /* FTRecognizerFactory.m */; };
+		A43E269A182763BF006A4588 /* FTRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E2699182763BF006A4588 /* FTRecognizer.m */; };
+		A43E269D182763EA006A4588 /* FTSKRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E269C182763EA006A4588 /* FTSKRecognizer.m */; };
+		A43E26A218279ECD006A4588 /* FTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E26A118279ECD006A4588 /* FTMainViewController.m */; };
+		A43E26A51827A17A006A4588 /* FTSKRecognizerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E26A41827A17A006A4588 /* FTSKRecognizerManager.m */; };
+		A43E26A81827A4EB006A4588 /* FTManagerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E26A71827A4EB006A4588 /* FTManagerFactory.m */; };
+		A43E26AB1827A5FD006A4588 /* FTRecognizerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E26AA1827A5FD006A4588 /* FTRecognizerManager.m */; };
+		A43E26AE1827A7FC006A4588 /* FTRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E26AD1827A7FC006A4588 /* FTRecognition.m */; };
+		A43E26B11827A835006A4588 /* FTSKRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E26B01827A835006A4588 /* FTSKRecognition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,31 @@
 		A43E267A182761EB006A4588 /* SpeechRecognizeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeechRecognizeTests-Info.plist"; sourceTree = "<group>"; };
 		A43E267C182761EB006A4588 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A43E267E182761EB006A4588 /* SpeechRecognizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechRecognizeTests.m; sourceTree = "<group>"; };
+		A43E268818276244006A4588 /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechKit.framework; path = SpeechKit/SpeechKit.framework; sourceTree = "<group>"; };
+		A43E268A18276277006A4588 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A43E268C18276280006A4588 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A43E268E1827628A006A4588 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A43E269018276297006A4588 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A43E2692182762BD006A4588 /* FTFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTFactory.h; path = Factory/FTFactory.h; sourceTree = "<group>"; };
+		A43E2693182762BD006A4588 /* FTFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTFactory.m; path = Factory/FTFactory.m; sourceTree = "<group>"; };
+		A43E2695182763A1006A4588 /* FTRecognizerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTRecognizerFactory.h; path = Factory/FTRecognizerFactory.h; sourceTree = "<group>"; };
+		A43E2696182763A1006A4588 /* FTRecognizerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTRecognizerFactory.m; path = Factory/FTRecognizerFactory.m; sourceTree = "<group>"; };
+		A43E2698182763BF006A4588 /* FTRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTRecognizer.h; path = Models/FTRecognizer.h; sourceTree = "<group>"; };
+		A43E2699182763BF006A4588 /* FTRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTRecognizer.m; path = Models/FTRecognizer.m; sourceTree = "<group>"; };
+		A43E269B182763EA006A4588 /* FTSKRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTSKRecognizer.h; path = Models/FTSKRecognizer.h; sourceTree = "<group>"; };
+		A43E269C182763EA006A4588 /* FTSKRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTSKRecognizer.m; path = Models/FTSKRecognizer.m; sourceTree = "<group>"; };
+		A43E26A018279ECD006A4588 /* FTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMainViewController.h; sourceTree = "<group>"; };
+		A43E26A118279ECD006A4588 /* FTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMainViewController.m; sourceTree = "<group>"; };
+		A43E26A31827A17A006A4588 /* FTSKRecognizerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTSKRecognizerManager.h; path = Models/FTSKRecognizerManager.h; sourceTree = "<group>"; };
+		A43E26A41827A17A006A4588 /* FTSKRecognizerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTSKRecognizerManager.m; path = Models/FTSKRecognizerManager.m; sourceTree = "<group>"; };
+		A43E26A61827A4EB006A4588 /* FTManagerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTManagerFactory.h; path = Factory/FTManagerFactory.h; sourceTree = "<group>"; };
+		A43E26A71827A4EB006A4588 /* FTManagerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTManagerFactory.m; path = Factory/FTManagerFactory.m; sourceTree = "<group>"; };
+		A43E26A91827A5FD006A4588 /* FTRecognizerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTRecognizerManager.h; path = Models/FTRecognizerManager.h; sourceTree = "<group>"; };
+		A43E26AA1827A5FD006A4588 /* FTRecognizerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTRecognizerManager.m; path = Models/FTRecognizerManager.m; sourceTree = "<group>"; };
+		A43E26AC1827A7FC006A4588 /* FTRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTRecognition.h; path = Models/FTRecognition.h; sourceTree = "<group>"; };
+		A43E26AD1827A7FC006A4588 /* FTRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTRecognition.m; path = Models/FTRecognition.m; sourceTree = "<group>"; };
+		A43E26AF1827A835006A4588 /* FTSKRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTSKRecognition.h; path = Models/FTSKRecognition.h; sourceTree = "<group>"; };
+		A43E26B01827A835006A4588 /* FTSKRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTSKRecognition.m; path = Models/FTSKRecognition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +100,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43E269118276297006A4588 /* SystemConfiguration.framework in Frameworks */,
+				A43E268F1827628A006A4588 /* CFNetwork.framework in Frameworks */,
+				A43E268D18276280006A4588 /* AudioToolbox.framework in Frameworks */,
+				A43E268B18276277006A4588 /* AVFoundation.framework in Frameworks */,
+				A43E268918276244006A4588 /* SpeechKit.framework in Frameworks */,
 				A43E2656182761EB006A4588 /* CoreGraphics.framework in Frameworks */,
 				A43E2658182761EB006A4588 /* UIKit.framework in Frameworks */,
 				A43E2654182761EB006A4588 /* Foundation.framework in Frameworks */,
@@ -101,6 +146,11 @@
 		A43E2652182761EB006A4588 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A43E269018276297006A4588 /* SystemConfiguration.framework */,
+				A43E268E1827628A006A4588 /* CFNetwork.framework */,
+				A43E268C18276280006A4588 /* AudioToolbox.framework */,
+				A43E268A18276277006A4588 /* AVFoundation.framework */,
+				A43E268818276244006A4588 /* SpeechKit.framework */,
 				A43E2653182761EB006A4588 /* Foundation.framework */,
 				A43E2655182761EB006A4588 /* CoreGraphics.framework */,
 				A43E2657182761EB006A4588 /* UIKit.framework */,
@@ -117,6 +167,10 @@
 				A43E2665182761EB006A4588 /* Main.storyboard */,
 				A43E2668182761EB006A4588 /* FTViewController.h */,
 				A43E2669182761EB006A4588 /* FTViewController.m */,
+				A43E26A018279ECD006A4588 /* FTMainViewController.h */,
+				A43E26A118279ECD006A4588 /* FTMainViewController.m */,
+				A43E269F18277112006A4588 /* Models */,
+				A43E269E182770FD006A4588 /* Factory */,
 				A43E266B182761EB006A4588 /* Images.xcassets */,
 				A43E265A182761EB006A4588 /* Supporting Files */,
 			);
@@ -150,6 +204,54 @@
 				A43E267B182761EB006A4588 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A43E269E182770FD006A4588 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				A43E2692182762BD006A4588 /* FTFactory.h */,
+				A43E2693182762BD006A4588 /* FTFactory.m */,
+				A43E2695182763A1006A4588 /* FTRecognizerFactory.h */,
+				A43E2696182763A1006A4588 /* FTRecognizerFactory.m */,
+				A43E26A61827A4EB006A4588 /* FTManagerFactory.h */,
+				A43E26A71827A4EB006A4588 /* FTManagerFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		A43E269F18277112006A4588 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A43E26B31827AE6E006A4588 /* Abstruct */,
+				A43E26B21827AE47006A4588 /* DragonMobile */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A43E26B21827AE47006A4588 /* DragonMobile */ = {
+			isa = PBXGroup;
+			children = (
+				A43E269B182763EA006A4588 /* FTSKRecognizer.h */,
+				A43E269C182763EA006A4588 /* FTSKRecognizer.m */,
+				A43E26A31827A17A006A4588 /* FTSKRecognizerManager.h */,
+				A43E26A41827A17A006A4588 /* FTSKRecognizerManager.m */,
+				A43E26AF1827A835006A4588 /* FTSKRecognition.h */,
+				A43E26B01827A835006A4588 /* FTSKRecognition.m */,
+			);
+			name = DragonMobile;
+			sourceTree = "<group>";
+		};
+		A43E26B31827AE6E006A4588 /* Abstruct */ = {
+			isa = PBXGroup;
+			children = (
+				A43E26A91827A5FD006A4588 /* FTRecognizerManager.h */,
+				A43E26AA1827A5FD006A4588 /* FTRecognizerManager.m */,
+				A43E2698182763BF006A4588 /* FTRecognizer.h */,
+				A43E2699182763BF006A4588 /* FTRecognizer.m */,
+				A43E26AC1827A7FC006A4588 /* FTRecognition.h */,
+				A43E26AD1827A7FC006A4588 /* FTRecognition.m */,
+			);
+			name = Abstruct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +352,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43E2697182763A1006A4588 /* FTRecognizerFactory.m in Sources */,
+				A43E269D182763EA006A4588 /* FTSKRecognizer.m in Sources */,
+				A43E2694182762BD006A4588 /* FTFactory.m in Sources */,
+				A43E26B11827A835006A4588 /* FTSKRecognition.m in Sources */,
 				A43E2664182761EB006A4588 /* FTAppDelegate.m in Sources */,
+				A43E269A182763BF006A4588 /* FTRecognizer.m in Sources */,
+				A43E26AE1827A7FC006A4588 /* FTRecognition.m in Sources */,
+				A43E26A51827A17A006A4588 /* FTSKRecognizerManager.m in Sources */,
+				A43E26AB1827A5FD006A4588 /* FTRecognizerManager.m in Sources */,
 				A43E2660182761EB006A4588 /* main.m in Sources */,
 				A43E266A182761EB006A4588 /* FTViewController.m in Sources */,
+				A43E26A81827A4EB006A4588 /* FTManagerFactory.m in Sources */,
+				A43E26A218279ECD006A4588 /* FTMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +491,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/om26b519-shopping/Documents/workspace/NRIProject/SpeechRecognize/SpeechKit",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpeechRecognize/SpeechRecognize-Prefix.pch";
 				INFOPLIST_FILE = "SpeechRecognize/SpeechRecognize-Info.plist";
@@ -392,6 +508,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/om26b519-shopping/Documents/workspace/NRIProject/SpeechRecognize/SpeechKit",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpeechRecognize/SpeechRecognize-Prefix.pch";
 				INFOPLIST_FILE = "SpeechRecognize/SpeechRecognize-Info.plist";
